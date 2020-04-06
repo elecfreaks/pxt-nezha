@@ -36,7 +36,7 @@ namespace neZha {
      * @param speed motor speed, eg: 100
      */
     //% weight=88
-    //% blockId=setMotorSpeed block="Set motor %motor speed to %speed %"
+    //% blockId=setMotorSpeed block="Set motor %motor speed to %speed //%"
     //% speed.min=-100 speed.max=100
     export function setMotorSpeed(motor: MotorList, speed: number): void {
         let iic_buffer = pins.createBuffer(4);
@@ -154,7 +154,7 @@ namespace neZha {
      * @param angel Angle of servo motor , eg: 100
      */
     //% weight=84
-    //% blockId=setServoSpeed block="Set 360° servo %servo speed to %speed %"
+    //% blockId=setServoSpeed block="Set 360° servo %servo speed to %speed //%"
     //% speed.min=-100 speed.max=100
     export function setServoSpeed(servo: ServoList, speed: number): void {
         let angel = Math.map(speed, -100, 100, 0, 180)
