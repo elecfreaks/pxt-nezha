@@ -148,6 +148,7 @@ namespace neZha {
         iic_buffer[3] = 0;
         pins.i2cWriteBuffer(neZha_address, iic_buffer);
     }
+
     /*
      * TODO: Setting the speed of a servo motor. 
      * @param servo A servo in the ServoList , eg: ServoList.S1
