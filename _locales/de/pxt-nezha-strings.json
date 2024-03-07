@@ -1,0 +1,20 @@
+{
+  "neZha.MotorList.M1|block": "M1",
+  "neZha.MotorList.M2|block": "M2",
+  "neZha.MotorList.M3|block": "M3",
+  "neZha.MotorList.M4|block": "M4",
+  "neZha.ServoList.S1|block": "S1",
+  "neZha.ServoList.S2|block": "S2",
+  "neZha.ServoList.S3|block": "S3",
+  "neZha.ServoList.S4|block": "S4",
+  "neZha.ServoTypeList._180|block": "180°",
+  "neZha.ServoTypeList._270|block": "270°",
+  "neZha.ServoTypeList._360|block": "360°",
+  "neZha.setMotorSpeed|block": "Setze Motor %motor Geschwindigkeit auf %speed\\%",
+  "neZha.setServoAngel|block": "Setze %servoType Servo %servo Winkel auf %angle°",
+  "neZha.setServoSpeed|block": "Setze Servo mit kontinuierlicher Rotation %servo Geschwindigkeit auf %speed\\%",
+  "neZha.stopAllMotor|block": "Stoppe alle Motoren",
+  "neZha.stopMotor|block": "Stoppe Motor %motor",
+  "neZha|block": "NeZha",
+  "{id:category}NeZha": "NeZha"
+}
