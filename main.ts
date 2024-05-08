@@ -139,7 +139,7 @@ namespace neZha {
      * @param angel Angle of servo motor , eg: 90
      */
     //% weight=84
-    //% blockId=setServoAngel block="Set %servoType servo %servo angel to %angle°"
+    //% blockId=setServoAngel block="Set %servoType servo %servo angle to %angle°"
     export function setServoAngel(servoType:ServoTypeList,servo: ServoList, angel: number): void {
         let iic_buffer = pins.createBuffer(4);
         switch (servo) {
