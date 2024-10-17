@@ -40,8 +40,8 @@ namespace neZha {
     }
 	/**
      * TODO: Set the speed of M1, M2, M3, M4 motor. 
-     * @param motor M1, M2, M3, M4 motor , eg: MotorList.M1
-     * @param speed motor speed, eg: 100
+     * @param motor M1, M2, M3, M4 motor 
+     * @param speed motor speed
      */
     //% weight=88
     //% blockId=setMotorSpeed block="Set motor %motor speed to %speed\\%"
@@ -114,7 +114,7 @@ namespace neZha {
 
 	/*
      * TODO: Stop one of the motors. 
-     * @param motor A motor in the MotorList , eg: MotorList.M1
+     * @param motor A motor in the MotorList
      */
     //% weight=86
     //% blockId=stopMotor block="Stop motor %motor"
@@ -135,8 +135,8 @@ namespace neZha {
 
 	/*
      * TODO: Setting the angle of a servo motor. 
-     * @param servo A servo in the ServoList , eg: ServoList.S1
-     * @param angel Angle of servo motor , eg: 90
+     * @param servo A servo in the ServoList 
+     * @param angel Angle of servo motor
      */
     //% weight=84
     //% blockId=setServoAngel block="Set %servoType servo %servo angel to %angle°"
@@ -174,8 +174,8 @@ namespace neZha {
     }
     /*
      * TODO: Setting the speed of a servo motor. 
-     * @param servo A servo in the ServoList , eg: ServoList.S1
-     * @param angel Angle of servo motor , eg: 100
+     * @param servo A servo in the ServoList 
+     * @param angel Angle of servo motor 
      */
     //% weight=83
     //% blockId=setServoSpeed block="Set continuous rotation servo %servo speed to %speed\\%"
