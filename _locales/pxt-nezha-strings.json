@@ -11,9 +11,9 @@
   "neZha.ServoTypeList._270|block": "270°",
   "neZha.ServoTypeList._360|block": "360°",
   "neZha.setMotorSpeed|block": "Set motor %motor speed to %speed\\%",
-  "neZha.setServoAngel|block": "Set %servoType servo %servo angel to %angle°",
+  "neZha.setServoAngel|block": "Set %servoType servo %servo angle to %angle°",
   "neZha.setServoSpeed|block": "Set continuous rotation servo %servo speed to %speed\\%",
-  "neZha.stopAllMotor|block": "Stop all motor",
+  "neZha.stopAllMotor|block": "Stop all motors",
   "neZha.stopMotor|block": "Stop motor %motor",
   "neZha|block": "NeZha",
   "{id:category}NeZha": "NeZha"
