@@ -11,6 +11,7 @@
         "main.ts",
         "_locales/zh/pxt-nezha-strings.json",
         "_locales/el/pxt-nezha-strings.json",
+        "_locales/de/pxt-nezha-strings.json",
         "_locales/cs/pxt-nezha-strings.json",
         "_locales/cs/pxt-nezha-jsdoc-strings.json"
     ],
