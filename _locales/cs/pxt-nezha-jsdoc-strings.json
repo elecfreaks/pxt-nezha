@@ -1,0 +1,18 @@
+{
+  "neZha": "Multifunkční rozšiřující karta NeZha od ELECFREAKS Co.,Ltd.",
+  "neZha.MotorList": "Seznam motorů",
+  "neZha.ServoList": "Seznam servomotorů",
+  "neZha.setMotorSpeed": "Nastaví rychlost daného motoru.",
+  "neZha.setMotorSpeed|param|motor": "identifikátor motoru, např.: MotorList.M1",
+  "neZha.setMotorSpeed|param|speed": "rychlost motoru v intervalu od -100 do 100, např.: 100",
+  "neZha.setServoAngel": "Nastaví úhel natočení daného serva.",
+  "neZha.setServoAngel|param|servoType": "typ serva, např.: neZha.ServoTypeList._180",
+  "neZha.setServoAngel|param|servo": "identifikátor serva, např.: neZha.ServoList.S1",
+  "neZha.setServoAngel|param|angle": "úhel serva, např.: 90",
+  "neZha.setServoSpeed": "Nastaví rychlost daného kontinuálního serva.",
+  "neZha.setServoSpeed|param|servo": "identifikátor serva, např.: neZha.ServoList.S1",
+  "neZha.setServoSpeed|param|speed": "rychlost serva v intervalu od -100 do 100, např.: 100",
+  "neZha.stopAllMotor": "Zastaví všechny motory (M1, M2, M3 a M4).",
+  "neZha.stopMotor": "Zastaví daný motor.",
+  "neZha.stopMotor|param|motor": "identifikátor motoru, např.: MotorList.M1"
+}

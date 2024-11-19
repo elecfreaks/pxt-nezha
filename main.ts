@@ -1,5 +1,5 @@
 /**
-* Functions to NeZha multifunctional expansion board by ELECFREAKS Co.,Ltd.
+* Functions for NeZha multifunctional expansion board by ELECFREAKS Co.,Ltd.
 */
 //% color=#ff0000  icon="\uf06d" block="NeZha" blockId="NeZha"
 namespace neZha {
@@ -38,9 +38,10 @@ namespace neZha {
         //% block="360°" 
         _360
     }
+
 	/**
-     * TODO: Set the speed of M1, M2, M3, M4 motor. 
-     * @param motor M1, M2, M3, M4 motor 
+     * Sets the speed of one of the M1, M2, M3 or M4 motors.
+     * @param motor A motor in the MotorList 
      * @param speed motor speed
      */
     //% weight=88
@@ -112,8 +113,8 @@ namespace neZha {
         }
     }
 
-	/*
-     * TODO: Stop one of the motors. 
+	/**
+     * Stops one of the motors.
      * @param motor A motor in the MotorList
      */
     //% weight=86
@@ -121,11 +122,12 @@ namespace neZha {
     export function stopMotor(motor: MotorList): void {
         setMotorSpeed(motor, 0)
     }
-	/*
-     * TODO: Stop all motors, including M1, M2, M3, M4.
+
+	/**
+     * Stops all motors, including M1, M2, M3 and M4.
      */
     //% weight=85
-    //% blockId=stopAllMotor  block="Stop all motor"
+    //% blockId=stopAllMotor  block="Stop all motors"
     export function stopAllMotor(): void {
         setMotorSpeed(MotorList.M1, 0)
         setMotorSpeed(MotorList.M2, 0)
@@ -133,14 +135,15 @@ namespace neZha {
         setMotorSpeed(MotorList.M4, 0)
     }
 
-	/*
-     * TODO: Setting the angle of a servo motor. 
+	/**
+     * Sets the angle of a servo motor.
+     * @param servoType A servo type in ServoTypeList
      * @param servo A servo in the ServoList 
      * @param angel Angle of servo motor
      */
     //% weight=84
-    //% blockId=setServoAngel block="Set %servoType servo %servo angel to %angle°"
-    export function setServoAngel(servoType:ServoTypeList,servo: ServoList, angel: number): void {
+    //% blockId=setServoAngel block="Set %servoType servo %servo angle to %angle°"
+    export function setServoAngel(servoType: ServoTypeList, servo: ServoList, angel: number): void {
         let iic_buffer = pins.createBuffer(4);
         switch (servo) {
             case ServoList.S1:
@@ -172,10 +175,10 @@ namespace neZha {
         iic_buffer[3] = 0;
         pins.i2cWriteBuffer(neZha_address, iic_buffer);
     }
-    /*
-     * TODO: Setting the speed of a servo motor. 
-     * @param servo A servo in the ServoList 
-     * @param angel Angle of servo motor 
+    /**
+     * Sets the speed of a servo motor. 
+     * @param servo A servo in the ServoList
+     * @param speed Speed of the servo motor
      */
     //% weight=83
     //% blockId=setServoSpeed block="Set continuous rotation servo %servo speed to %speed\\%"
