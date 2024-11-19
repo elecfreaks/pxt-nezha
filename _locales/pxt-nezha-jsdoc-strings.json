@@ -1,8 +1,18 @@
 {
-  "neZha": "Functions to NeZha multifunctional expansion board by ELECFREAKS Co.,Ltd.",
+  "neZha": "Functions for NeZha multifunctional expansion board by ELECFREAKS Co.,Ltd.",
   "neZha.MotorList": "MotorList",
   "neZha.ServoList": "ServoList",
-  "neZha.setMotorSpeed": "TODO: Set the speed of M1, M2, M3, M4 motor.",
-  "neZha.setMotorSpeed|param|motor": "M1, M2, M3, M4 motor , eg: MotorList.M1",
-  "neZha.setMotorSpeed|param|speed": "motor speed, eg: 100"
+  "neZha.setMotorSpeed": "Sets the speed of one of the M1, M2, M3 or M4 motors.",
+  "neZha.setMotorSpeed|param|motor": "A motor in the MotorList, eg: MotorList.M1",
+  "neZha.setMotorSpeed|param|speed": "Motor speed ranging from -100 to 100, eg: 100",
+  "neZha.setServoAngel": "Sets the angle of a servo motor.",
+  "neZha.setServoAngel|param|servoType": "A servo type in ServoTypeList, eg: neZha.ServoTypeList._180",
+  "neZha.setServoAngel|param|servo": "A servo in the ServoList, eg: neZha.ServoList.S1",
+  "neZha.setServoAngel|param|angle": "Angle of servo motor, eg: 90",
+  "neZha.setServoSpeed": "Sets the speed of a servo motor.",
+  "neZha.setServoSpeed|param|servo": "A servo in the ServoList, eg: neZha.ServoList.S1",
+  "neZha.setServoSpeed|param|speed": "Speed of the servo motor ranging from -100 to 100, eg: 100",
+  "neZha.stopAllMotor": "Stops all motors, including M1, M2, M3 and M4.",
+  "neZha.stopMotor": "Stops one of the motors.",
+  "neZha.stopMotor|param|motor": "A motor in the MotorList, eg: MotorList.M1"
 }
