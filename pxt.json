@@ -13,6 +13,7 @@
         "_locales/el/pxt-nezha-strings.json",
         "_locales/de/pxt-nezha-strings.json",
         "_locales/cs/pxt-nezha-strings.json",
+        "_locales/fr/pxt-nezha-strings.json",
         "_locales/cs/pxt-nezha-jsdoc-strings.json"
     ],
     "testFiles": [
