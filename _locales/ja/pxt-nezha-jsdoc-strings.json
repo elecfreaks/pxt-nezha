@@ -1,0 +1,19 @@
+{
+  "neZha": "ELECFREAKS製の多機能拡張ボード NeZha を制御する機能。",
+  "neZha.MotorList": "モーターの接続先。M1〜M4から選ぶ。",
+  "neZha.ServoList": "サーボの接続先。S1〜S4から選ぶ。",
+  "neZha.ServoTypeList": "角度指定サーボの可動範囲。180°、270°、360°から選ぶ。",
+  "neZha.setMotorSpeed": "M1〜M4のうち、指定したモーターのスピードを設定する。",
+  "neZha.setMotorSpeed|param|motor": "制御するモーターの接続先。M1〜M4から選ぶ。",
+  "neZha.setMotorSpeed|param|speed": "スピード。-100〜100%で指定する。0は停止を指示し、負の値は正の値と反対の回転方向を指定する。",
+  "neZha.setServoAngel": "指定した種類のサーボの角度を設定する。連続回転サーボの速度指定とは異なる。",
+  "neZha.setServoAngel|param|servoType": "接続したサーボの可動範囲。180°、270°、360°から選ぶ。",
+  "neZha.setServoAngel|param|servo": "制御するサーボの接続先。S1〜S4から選ぶ。",
+  "neZha.setServoAngel|param|angel": "サーボの角度。接続したサーボの可動範囲内で指定する。",
+  "neZha.setServoSpeed": "連続回転サーボのスピードを設定する。",
+  "neZha.setServoSpeed|param|servo": "制御する連続回転サーボの接続先。S1〜S4から選ぶ。",
+  "neZha.setServoSpeed|param|speed": "スピード。-100〜100%で指定する。0は停止を指示し、負の値は正の値と反対の回転方向を指定する。",
+  "neZha.stopAllMotor": "M1、M2、M3、M4のすべてのモーターに停止を指示する。サーボS1〜S4は対象に含まれない。",
+  "neZha.stopMotor": "指定したM1〜M4のモーターに停止を指示する。",
+  "neZha.stopMotor|param|motor": "停止するモーターの接続先。M1〜M4から選ぶ。"
+}
